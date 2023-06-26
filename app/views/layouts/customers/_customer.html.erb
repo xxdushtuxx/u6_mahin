@@ -1,0 +1,18 @@
+<div class="box">
+  <article class="media">
+    <div class="media-left">
+      <%= image_tag customer.image.url, class: "image is-64x64" %>
+    </div>
+    <div class="media-content">
+      <div class="content">
+        <p>
+          <strong><%= customer.name %></strong>
+          <br>
+          Email: <%= customer.email %>
+          <br>
+          Phone: <%= customer.phone %>
+        </p>
+      </div>
+    </div>
+  </article>
+</div>
